@@ -1,0 +1,213 @@
+/* Modern Color Palette */
+.root {
+    -fx-primary-color: #4A90E2;    /* Calm Blue */
+    -fx-success-color: #7ED321;    /* Fresh Green */
+    -fx-danger-color: #D0021B;     /* Alert Red */
+    -fx-warning-color: #F5A623;    /* Warning Orange */
+    -fx-background-color: #F8F9FA; /* Light Gray */
+    -fx-text-primary: #2D3436;     /* Dark Gray */
+    -fx-text-secondary: #636E72;   /* Medium Gray */
+}
+
+/* Base Styling */
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 14px;
+    -fx-background-color: -fx-background-color;
+    -fx-padding: 20px;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: -fx-text-primary;
+    -fx-font-weight: 600;
+}
+
+/* Text Fields */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #DFE6E9;
+    -fx-border-radius: 8px;
+    -fx-padding: 8px 12px;
+}
+
+.text-field:hover {
+    -fx-border-color: #4A90E2; /* Calm Blue */
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: -fx-primary-color;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: #357ABD; /* Darker Blue */
+}
+
+/* Text Buttons */
+.text-button {
+    -fx-background-color: #4A90E2; /* Blue background */
+    -fx-text-fill: white;          /* White text */
+    -fx-font-weight: bold;         /* Bold text */
+    -fx-padding: 5px 10px;         /* Padding */
+    -fx-background-radius: 5px;    /* Rounded corners */
+    -fx-cursor: hand;              /* Pointer cursor on hover */
+}
+
+.text-button:hover {
+    -fx-background-color: #357ABD; /* Darker blue on hover */
+}
+
+/* Table Styling */
+.table-view {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #F8F9FA;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: -fx-primary-color;
+    -fx-text-fill: white;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #e0e0e0; /* Light gray on hover */
+}
+
+/* Status Icons */
+#statusIcon {
+    -fx-font-size: 24px;
+    -fx-padding: 0 10px;
+}
+
+.status-positive {
+    -fx-text-fill: -fx-success-color;
+}
+
+.status-warning {
+    -fx-text-fill: -fx-warning-color;
+}
+
+.status-danger {
+    -fx-text-fill: -fx-danger-color;
+}
+
+/* Debt Label */
+#debtLabel {
+    -fx-font-weight: bold;
+    -fx-text-fill: -fx-danger-color;
+}
+
+/* Chart Styling */
+.chart-pie-label {
+    -fx-fill: -fx-text-primary;
+    -fx-font-weight: 600;
+}
+
+.chart-pie {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+.chart-pie:hover {
+    -fx-cursor: hand; /* Change cursor to hand on hover */
+}
+
+/* Progress Bar Container */
+.progress-bar-container {
+    -fx-background-color: transparent;
+    -fx-padding: 5px;
+}
+
+/* Progress Bar Styling */
+.budget-progress-bar {
+    -fx-accent: #4A90E2; /* Calm Blue */
+    -fx-background-color: #DFE6E9; /* Light Gray */
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-padding: 2px;
+    -fx-pref-width: 400px; /* Make the progress bar longer */
+}
+
+.budget-progress-bar .track {
+    -fx-background-color: #DFE6E9; /* Light Gray */
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+.budget-progress-bar .bar {
+    -fx-background-color: #4A90E2; /* Calm Blue */
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+/* Percentage Label Styling */
+.progress-percentage-label {
+    -fx-text-fill: #2D3436; /* Dark Gray */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+/* StackPane for Progress Bar */
+.stack-pane {
+    -fx-alignment: center;
+}
+
+/* Grid Layout Styling */
+.grid-pane {
+    -fx-background-color: -fx-background-color;
+    -fx-padding: 20px;
+    -fx-hgap: 15px;
+    -fx-vgap: 15px;
+}
+
+/* HBox for Status Icons */
+.hbox {
+    -fx-alignment: center-left;
+    -fx-spacing: 15px;
+}
+
+/* Date Label Styling */
+#dateLabel {
+    -fx-font-weight: bold;
+    -fx-text-fill: -fx-text-primary;
+}
+
+/* ComboBox Styling */
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #DFE6E9;
+    -fx-border-radius: 8px;
+    -fx-padding: 8px 12px;
+}
+
+.combo-box:hover {
+    -fx-border-color: #4A90E2; /* Calm Blue */
+}
+
+/* Add Expense Button Styling */
+#addButton {
+    -fx-background-color: -fx-success-color; /* Fresh Green */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 0);
+}
+
+#addButton:hover {
+    -fx-background-color: #6BBF00; /* Darker Green */
+}

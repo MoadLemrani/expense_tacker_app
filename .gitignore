@@ -1,0 +1,36 @@
+# Ignore Maven target directory (compiled classes, build output)
+target/
+
+# Ignore IDE settings and local config files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# NetBeans specific
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+build/
+nbactions.xml
+
+# Ignore all JAR files (your dependencies)
+*.jar
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Ignore build output
+target/
+
+# Ignore personal expense logs
+expenses_*.txt
+
+# Ignore NetBeans user-specific actions
+nbactions.xml
+
+# Ignore scripts and system files (optional)
+run.bat
