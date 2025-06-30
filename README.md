@@ -48,6 +48,7 @@ ExpenseTrackerApp/
 ├── pom.xml                    # Maven configuration
 ├── .gitignore
 └── README.md
+```
 
 ---
 
