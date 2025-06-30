@@ -34,15 +34,20 @@ A desktop expense tracking application built using **JavaFX**, designed to help 
 
 ExpenseTrackerApp/
 ├── src/
-│   └── main/
-│       └── java/com/mycompany/expensetrackerapp/
-│           ├── ExpenseTrackerApp.java      # Main application class
-│           ├── Expense.java                # Expense data model
-│           └── SplashController.java       # Splash screen controller
-└── resources/
-    ├── splash.fxml                         # Splash screen layout
-    ├── splash_screen.png                   # Splash screen image
-    └── styles.css                          # Application styling
+│ └── main/
+│ ├── java/com/mycompany/expensetrackerapp/
+│ │ ├── ExpenseTrackerApp.java
+│ │ ├── Expense.java
+│ │ └── SplashController.java
+│ └── resources/
+│ ├── splash.fxml
+│ ├── splash_screen.png
+│ └── styles.css
+├── expenses_2025_06.txt # Example saved monthly file
+├── pom.xml # Maven configuration
+├── .gitignore
+└── README.md
+
 
 ---
 
